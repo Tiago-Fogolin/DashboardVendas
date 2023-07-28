@@ -1,0 +1,52 @@
+#selection-tabs{
+    display: flex;
+    flex-direction: column;
+}
+
+#main-div{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    gap: 5px;
+    height: 739px;
+}
+
+#main-main-div{
+    display: flex;
+    flex-direction: row;
+}
+
+#tab-div{
+    width: 10%;
+    background-color: rgb(50, 50, 50);
+    border-right: 7px solid black;
+    height: 78%;
+}
+
+#upload-div{
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 3px 10px;
+    cursor: pointer;
+    background-color: green;
+}
+
+#upload-text{
+    text-align: center;
+}
+
+
+#tabs-content{
+    width: 90%;
+}
+
+.tabs{
+    margin: 35px 0px;
+}
+
+
+.text{
+    color: white;
+    font-size: 18px;
+}
